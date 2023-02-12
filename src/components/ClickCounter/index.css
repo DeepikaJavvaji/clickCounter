@@ -1,0 +1,35 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 18px;
+}
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.counter {
+  color: #c20a72;
+}
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
